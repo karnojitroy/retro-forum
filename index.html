@@ -28,7 +28,48 @@
 </head>
 
 <body>
-    <header></header>
+    <header class="mx-auto px-5 md:px-16 lg:px-24 container">
+        <!-- navbar -->
+        <nav>
+            <div class="flex md:flex-row flex-col justify-between items-center py-12">
+                <div class="flex justify-between items-center gap-10 w-full">
+                    <img src="images/logo.png" alt="logo">
+                    <div class="md:hidden">
+                        <button
+                            class="bg-[#797DFC] hover:bg-[#676bf7] px-6 rounded-3xl font-bold font-mulish text-white text-xl btn">
+                            Sign In
+                        </button>
+                    </div>
+                </div>
+                <div class="flex md:flex-row flex-col justify-between md:justify-end items-center gap-4 mt-5 md:mt-0 w-full">
+                    <ul class="flex justify-between items-center gap-4">
+                        <li class="cursor-pointer tooltip" data-tip="Home">
+                            <i
+                                class="border-[#0307121A] bg-[#12132D08] hover:bg-[#cfd1f7] p-4 border rounded-full fa-house fa-solid"></i>
+                        </li>
+                        <li class="cursor-pointer tooltip" data-tip="Notes">
+                            <i
+                                class="border-[#0307121A] bg-[#12132D08] hover:bg-[#cfd1f7] p-4 border rounded-full fa-pen fa-solid"></i>
+                        </li>
+                        <li class="cursor-pointer tooltip" data-tip="add user">
+                            <i
+                                class="border-[#0307121A] bg-[#12132D08] hover:bg-[#cfd1f7] p-4 border rounded-full fa-solid fa-user-plus"></i>
+                        </li>
+                        <li class="cursor-pointer tooltip" data-tip="Checkered">
+                            <i
+                                class="border-[#0307121A] bg-[#12132D08] hover:bg-[#cfd1f7] p-4 border rounded-full fa-flag fa-regular"></i>
+                        </li>
+                    </ul>
+                    <div class="md:block hidden">
+                        <button
+                            class="bg-[#797DFC] hover:bg-[#676bf7] px-6 rounded-3xl font-bold font-mulish text-white text-xl btn">
+                            Sign In
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
     <main></main>
     <footer></footer>
 
